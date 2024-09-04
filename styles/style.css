@@ -1,0 +1,39 @@
+body {
+    font-family: 'Arial', sans-serif;
+    background-color: #e6f2ff;  /* Change this to a light blue color */
+}
+
+.stButton > button {
+    background-color: #4CAF50;
+    color: white;
+    font-weight: bold;
+    border-radius: 5px;
+    padding: 10px 20px;
+}
+
+.stTextArea > div > div > textarea {
+    background-color: #e0e0e0;
+    border-radius: 5px;
+}
+
+h1 {
+    color: #ff4500;  /* Change this to a bright orange color */
+    text-align: center;
+}
+
+.generated-name {
+    background-color: #ffffff;
+    padding: 20px;
+    border-radius: 5px;
+    box-shadow: 0 2px 4px rgba(0,0,0,0.1);
+}
+
+/* Hide the "deploy" button */
+button[data-testid="stDecoration"] {
+    display: none !important;
+}
+
+/* Hide the entire top-right menu if needed */
+.stDeployButton {
+    display: none !important;
+}
